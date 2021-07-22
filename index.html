@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="calculator">
+            <div id="result">
+                <input type='text' id='answer' >
+            </div>
+            <div class="display">
+                <input type="button" value="C" onclick="reset()" class="button">
+                <input type="button" value="." onclick="insertnum('.')" class="button">
+                <input type="button" value="%" onclick="insertnum('%')" class="button">
+                <input type="button" value="/" onclick="insertnum('/')" class="operator">
+                <input type="button" value="1" onclick="insertnum('1')" class="button">
+                <input type="button" value="2" onclick="insertnum('2')" class="button">
+                <input type="button" value="3" onclick="insertnum('3')" class="button">
+                <input type="button" value="*" onclick="insertnum('*')"  class="operator">
+                <input type="button" value="4" onclick="insertnum('4')" class="button">
+                <input type="button" value="5" onclick="insertnum('5')" class="button">
+                <input type="button" value="6" onclick="insertnum('6')" class="button">
+                <input type="button" value="+" onclick="insertnum('+')" class="operator">
+                <input type="button" value="7" onclick="insertnum('7')" class="button">
+                <input type="button" value="8" onclick="insertnum('8')" class="button">
+                <input type="button" value="9" onclick="insertnum('9')" class="button">
+                <input type="button" value="-" onclick="insertnum('-')" class='operator'>
+                <input type="button" value="" onclick="" class="empty">
+                <input type="button" value="0" onclick="insertnum('0')" class="button">
+                <input type="button" value=""  class="empty">
+                <input type="button" value="=" onclick="answer()" class='operator'>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

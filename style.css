@@ -1,0 +1,85 @@
+body{
+  font-family: 'open Sans',sans-serif;
+  background-color:honeydew; 
+}
+#container{
+  top: 10px;
+  width: 1000px;
+  height: 700px;
+  max-height: 100%;
+  margin: 20px auto;
+  max-width: 100%;
+  background-image: url(img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.calculator{
+  width: 320px;
+  height: 520px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 90px ;
+  position: relative;
+  border-radius: 5px;
+   
+}
+#answer{
+  border: none;
+  height: 120px;
+  width: 310px ;
+  background-color: #eaedef;
+  font-size: 30px;
+  float: left;
+  text-align: right;
+}
+/* #result{
+  text-align: right;
+  height: 120px;
+} */
+.display{
+  height: 400px;
+}
+.button , .operator , .empty{
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.button:active , .operator:active{
+  background-color: gray;
+}
+.button , .empty{
+  background-color:#eaedef ;
+}
+.operator{
+  font-size: 20px;
+}
+input:nth-child(1){
+  background-color:lightgray ;
+}
+input:nth-child(2){
+  background-color:lightgray ;
+}
+input:nth-child(3){
+  background-color:lightgray ;
+}
+input:nth-child(4){
+  background-color:deepskyblue;
+}
+input:nth-child(8){
+  background-color:lightcoral;
+}
+input:nth-child(12){
+  background-color:lightsalmon;
+}
+input:nth-child(16){
+  background-color: darkseagreen;
+}
+input:nth-child(20){
+  background-color: plum;
+}
